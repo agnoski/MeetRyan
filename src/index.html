@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Meet Ryan</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		<div class="hero">
+			<h1>Meet Ryan</h1>
+			<h2>Type the two starting airports codes...</h2>
+			<div class="search">
+				<form>
+					<input id="input1" class="input-box" type="text" placeholder="Code 1" maxlength="3">
+					<input id="input2" class="input-box" type="text" placeholder="Code 2" maxlength="3">
+				</form>
+				<button class="btn-show" onclick="showCommonDestination()">Show</button>
+			</div>
+		</div>
+		
+		<div class="container">
+			<h2>Common destinations</h2>
+			<div class="cards">
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+
+	</body>
+</html>
